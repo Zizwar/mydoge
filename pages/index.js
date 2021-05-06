@@ -10,18 +10,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+     
 <div style="text-align: center">
-    <img alt="MyDoge" src="/dogecoin.png" alt="dogecoin.png"/></div>
+    <img alt="MyDoge" src="/dogecoin.png" />
+    </div>
       </main>
 
       <footer className={styles.footer}>
         <a
           rel="noopener noreferrer"
-        >Coper 2021 MyDoge
-
+        >© 2021 MyDoge
         </a>
       </footer>
     </div>
