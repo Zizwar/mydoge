@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>My DogeCoin</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -13,8 +13,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-<div style="text-align: center!important;">
-    <img alt="MyDoge" src="/dogecoin.png" alt="dogecoin.png"></div>
+<div style="text-align: center">
+    <img alt="MyDoge" src="/dogecoin.png" alt="dogecoin.png"/></div>
       </main>
 
       <footer className={styles.footer}>
