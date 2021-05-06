@@ -10,12 +10,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-    {/*
-<div style="text-align: center">
     <img alt="MyDoge" src="/dogecoin.png" />
-    </div>
-    */}
-      </main>
+        </main>
 
       <footer className={styles.footer}>
         <a
