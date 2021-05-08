@@ -37,11 +37,7 @@ const Customizer = () => {
         <div className="theme-pannel-main">
             <ul>
              
-                <li className="sidebar-btn dark-light-btn">
-                    <a href={null} className="dark-light" onClick={() => changeThemeLayout()}>
-                        <span className="theme-layout-version">{themeLayout?'Light':'Dark'}</span>
-                    </a>
-                </li>
+        
             </ul>
         </div>
     );

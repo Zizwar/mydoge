@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Tilt from 'react-parallax-tilt';
-import {Container,Row,Col} from 'reactstrap'
-const Banner = () => {
+import { Container, Row, Col } from 'reactstrap'
+const Banner = ({ abcdar }) => {
     const [sideSection, setSideSection] = useState(false);
 
     const sidesection = () => {
@@ -21,25 +21,32 @@ const Banner = () => {
                     <Tilt perspective="20000" transitionSpeed="3000">
                         <div className="text-center w-100">
                             <div className="img-height">
-                                <img alt="" className="img-fluid" src="/dogecoin.png" />
+                                {abcdar ?
+                                    <a href="https://www.abcdarab.com/">
+                                        <img alt="" className="img-fluid" src="/abcdarab.png" />
+                                    </a>
+                                    : <img alt="" className="img-fluid" src="/dogecoin.png" />
+                                }
                             </div>
                         </div>
                     </Tilt>
                 </div>
             </div>
-            <div className="right-side">
-                <div className="circle">
-                    <img alt="" className="img-fluid"  src="/dogecoin.png" />
+            {!abcdar && <>
+                <div className="right-side">
+                    <div className="circle">
+                        <img alt="" className="img-fluid" src="/dogecoin.png" />
+                    </div>
+                    <h1>2021</h1>
                 </div>
-                <h1>2021</h1>
-            </div>
-            <div className="left-side">
-      
-            </div>
-            <Container className="music-container">
-                <Row>
-                     </Row>
-            </Container>
+
+                <div className="left-side">
+
+                </div>
+                    <Row>
+                        <iframe width="99%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981250600&color=%23322e1e&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    </Row></>
+            }
         </section>
     )
 }

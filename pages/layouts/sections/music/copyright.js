@@ -18,7 +18,7 @@ const Copyright = () => (
                                 <a className="copyright-text op-text" href="#">sponsors </a>
                             </li>
                             <li>
-                                <a className="copyright-text op-text" href="mailto:bihi.server@gmail.com">contact</a>
+                                <a className="copyright-text op-text" href="mailto:2600.ma@gmail.com">contact</a>
                             </li>
                         </ul>
                     </div>

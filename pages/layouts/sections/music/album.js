@@ -28,7 +28,7 @@ const Album = ({data:market=[]}) => (
                                 <div style={{ border: "2px dotted #369" }} className="album-list overlay-box text-center">
                                     <h5 className="text-uppercase list-head">
                                         <a className=" btn btn-default btn-gradient text-white btn-app1-theme"
-                                            target="_parent" href={link ? link?.includes("binance.com") ? "https://www.binance.com/?ref=120434795" : link : `https://www.google.com/search?q=market+${exchange}`}>{exchange} {link?.includes("binance.com") && "🚀"}</a></h5>
+                                            target="_parent" href={link ? link?.includes("binance.com") ? "https://www.binance.com/?ref=120434795" : link : `https://www.google.com/search?q=market+${exchange}`}>{exchange} {link?.includes("binance.com") && "💰"}</a></h5>
                                     <div>
                                         <h6 className="item-sublist">${price?.toFixed(5)}</h6>
                                         <h6 className="item-sublist">{pair} = {pairPrice.toFixed(5)}</h6>
