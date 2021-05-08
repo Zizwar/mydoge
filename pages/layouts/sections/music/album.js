@@ -1,10 +1,7 @@
 import React from 'react';
-import { market } from '../../../../database/elements/price/database';
+//import { market } from '../../../../database/elements/price/database';
 import { Container, Row, Col } from 'reactstrap'
-import dynamic from "next/dynamic";
-import useSWR from 'swr';
-import axios from 'axios';
-const Album = () => (
+const Album = ({data:market=[]}) => (
     <section className="music album bg-black pb-0">
         <Container>
             <Row>
@@ -19,7 +16,7 @@ const Album = () => (
                     </div>
                 </Col>
 
-                {market?.length > 0 ?
+                {market[0]?.exchange &&
                     market.map((item, index) => {
                         const { link, price = "",
                             exchange = "",
@@ -41,7 +38,7 @@ const Album = () => (
                                 </div>
                             </Col>
                     }
-                    ) : 'Album Data Not Found'
+                    )
                 }
             </Row>
         </Container>

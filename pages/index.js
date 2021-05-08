@@ -18,7 +18,7 @@ const fetcher = async () => {
 };
 
 const Doge = () => {
-    const { data=[] } = useSWR('apiMarket', fetcher,{ refreshInterval: 30000 });
+    const { data=[] } = useSWR('apiMarket', fetcher,{ refreshInterval: 15000 });
   console.log({data})
      useEffect(() => {
         document.body.style.setProperty('--primary', '#223b7b')
@@ -34,7 +34,7 @@ const Doge = () => {
             </Head>
             <BannerSection />
             <Market data={data} />
-            <AlbumSection />
+            <AlbumSection data={data} />
             <CopyrightSection />
         </div>
     )
