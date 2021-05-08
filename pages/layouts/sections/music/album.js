@@ -1,58 +1,47 @@
-import React, { useState } from 'react'
-import Tilt from 'react-parallax-tilt';
+import React from 'react';
+//import { market } from '../../../../database/elements/price/database';
 import { Container, Row, Col } from 'reactstrap'
-const Banner = ({ abcdar }) => {
-    const [sideSection, setSideSection] = useState(false);
-
-    const sidesection = () => {
-        if (!sideSection) {
-            setSideSection(true)
-            document.querySelector('.side-section').classList.add('d-block')
-        } else {
-            setSideSection(false)
-            document.querySelector('.side-section').classList.remove('d-block')
-        }
-    }
-
-    return (
-        <section className="music header" id="header">
-            <div className="music-content">
-                <div className=" bg bg-shadow-top">
-                    <Tilt perspective="20000" transitionSpeed="3000">
-                        <div className="text-center w-100">
-                            <div className="img-height">
-                                {abcdar ?
-                                    <a href="https://www.abcdarab.com/">
-                                        <img alt="" className="img-fluid" src="/abcdarab.png" />
-                                    </a>
-                                    : <img alt="" className="img-fluid" src="/favicon.ico" />
-                                }
-                            </div>
+const Album = ({ data: market = [] }) => (
+    <section className="music album bg-black pb-0">
+        <Container>
+            <Row>
+                <Col md="10" className="offset-md-1">
+                    <div className="title title4">
+                        <div className="main-title">
+                            <h2>All Markets</h2>
                         </div>
-                    </Tilt>
-                </div>
-            </div>
-            {!abcdar && <>
-                <div className="right-side">
-                    <div className="circle" style={{background: "aliceblue",
-    height: "70px",
-    width: "70px"}}>
-                        <img style={{  left:0}} alt="" className="img-fluid" src="/assets/images/404/rocket.svg" />
+                        <div className="sub-title">
+                            <p></p>
+                        </div>
                     </div>
-                    <h1>2021</h1>
-                </div>
+                </Col>
 
-                <div className="left-side">
+                {market && market.map((item = [], index) => {
+                    const { link, price = "",
+                        exchange = "",
+                        pair = "",
+                        pairPrice = "",
+                        volume = 0 } = item;
+                    if (exchange)
+                        return <Col lg="3" md="4" sm="6" key={index}>
+                            <div style={{ border: "2px dotted #369" }} className="album-list overlay-box text-center">
+                                <h5 className="text-uppercase list-head">
+                                    <a className=" btn btn-default btn-gradient text-white btn-app1-theme"
+                                        target="_parent" href={link ? link?.includes("binance.com") ? "https://www.binance.com/?ref=120434795" : link : `https://www.google.com/search?q=market+${exchange}`}>{exchange} {link?.includes("binance.com") && "💰"}</a></h5>
+                                <div>
+                                    <h6 className="item-sublist">${price?.toFixed(5)}</h6>
+                                    <h6 className="item-sublist">{pair} = {pairPrice.toFixed(5)}</h6>
+                                    <h6 className="item-sublist">Volume: {parseInt(volume) || volume && volume?.toFixed(5)}</h6>
 
-                </div>
-                    <Row>
-                        <iframe width="99%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981250600&color=%23322e1e&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                    </Row></>
-            }
-        </section>
-    )
-}
+                                </div>
+                            </div>
+                        </Col>
+                }
+                )
+                }
+            </Row>
+        </Container>
+    </section>
+)
 
-
-
-export default Banner;
+export default Album;
