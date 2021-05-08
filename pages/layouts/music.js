@@ -41,24 +41,8 @@ const Music = () => {
 
             <AlbumSection />
 
-            <ArtistSection />
 
-            <SponsorSection />
-
-            <GallerySection />
-
-            <VideoSection />
-
-            <BookingSection />
-
-            <BlogSection />
-
-            <SubscribeSection />
-
-            <TestimonialSection />
-            
-            <FooterSection />
-
+     
             <CopyrightSection />
 
         </div>

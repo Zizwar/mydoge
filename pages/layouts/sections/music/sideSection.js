@@ -23,8 +23,7 @@ const SideSection = () => {
                                     </div>
                                     <h6 className="now-play">now playing</h6>
                                 </div>
-                                <img alt="" className="img-fluid girls" src="/assets/images/music/icons/girl-side.jpg" />
-                                <div className="author-text">
+                                    <div className="author-text">
                                     <h5 className="song-text">Latest Song</h5>
                                     <h6 className="song-sub-text">Zrial doj</h6>
                                 </div>

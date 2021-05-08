@@ -6,7 +6,7 @@ const ElementPriceOne = () => (
     <Fragment>
         <section className="app1 pricing mb-0">
             <Container>
-                <Title heading="Pricing 1" />
+                <Title heading="Market" />
                 <PriceOne />
             </Container>
         </section>

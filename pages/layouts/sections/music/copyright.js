@@ -13,14 +13,12 @@ const Copyright = () => (
                             <li>
                                 <a className="copyright-text op-text" href="#">timeline</a>
                             </li>
-                            <li>
-                                <a className="copyright-text op-text" href="#">artist</a>
-                            </li>
+                       
                             <li>
                                 <a className="copyright-text op-text" href="#">sponsors </a>
                             </li>
                             <li>
-                                <a className="copyright-text op-text" href="#">contact</a>
+                                <a className="copyright-text op-text" href="mailto:bihi.server@gmail.com">contact</a>
                             </li>
                         </ul>
                     </div>
@@ -55,7 +53,7 @@ const Copyright = () => (
                 </Col>
                 <Col md="5" sm="12">
                     <div className="m-l-auto center-para">
-                        <p className="copyright-text text-white text-right op-text">© 2020 Unice powered by Pixelstrap</p>
+                        <p className="copyright-text text-white text-right op-text">© 2021 MyDoge</p>
                     </div>
                 </Col>
             </Row>

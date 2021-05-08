@@ -1,4 +1,1782 @@
 module.exports = {
+    market:[{
+	"price": 0.730873,
+	"exchange": "BinanceFutures",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.730873,
+	"volume": 8728885889.35
+}, {
+	"price": 0.72931,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72931,
+	"volume": 8005468060.427544
+}, {
+	"price": 0.7843874512164208,
+	"exchange": "Upbit",
+	"pair": "DOGE/KRW",
+	"pairPrice": 873,
+	"volume": 6781868554.307918
+}, {
+	"price": 0.728526,
+	"link": "www.huobipro.com",
+	"exchange": "HuobiPro",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.728526,
+	"volume": 3337256678.085881
+}, {
+	"price": 0.7655947716,
+	"exchange": "BitZ",
+	"pair": "DOGE/DKKT",
+	"pairPrice": 0.1509,
+	"volume": 2422602084.6730742
+}, {
+	"price": 0.729448,
+	"link": "https://www.okex.com/",
+	"exchange": "OKEX",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.729448,
+	"volume": 1755469672.528372
+}, {
+	"price": 0.7296128345999999,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57859.86,
+	"volume": 1334021018.053784
+}, {
+	"price": 0.7289241554455048,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/BUSD",
+	"pairPrice": 0.9983074332276552,
+	"volume": 752179707.4141294
+}, {
+	"price": 0.7247693256658977,
+	"exchange": "Paribu",
+	"pair": "DOGE/TRY",
+	"pairPrice": 5.97,
+	"volume": 631869362.7124114
+}, {
+	"price": 0.7296,
+	"exchange": "BinanceUS",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.7296,
+	"volume": 614019951.2448
+}, {
+	"price": 0.729041,
+	"exchange": "DigiFinex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.729041,
+	"volume": 592594708.1472192
+}, {
+	"price": 0.729476,
+	"exchange": "BitZ",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.729476,
+	"volume": 517464474.61
+}, {
+	"price": 0.7282739,
+	"exchange": "ZBCom",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7282739,
+	"volume": 475844904.80081373
+}, {
+	"price": 0.728458,
+	"link": "https://gate.io",
+	"exchange": "Gate.io",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.728458,
+	"volume": 466296762.36109
+}, {
+	"price": 0.728,
+	"link": "https://www.kraken.com",
+	"exchange": "Kraken",
+	"pair": "XDG/USD",
+	"pairPrice": 0.728,
+	"volume": 434008802.7838074
+}, {
+	"price": 0.7255,
+	"link": "https://www.kucoin.com",
+	"exchange": "Kucoin",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7255,
+	"volume": 390631575.6494745
+}, {
+	"price": 0.7315221815,
+	"link": "https://www.binance.com/?ref=120434795",
+	"exchange": "Binance",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.60142,
+	"volume": 358482980.80866325
+}, {
+	"price": 0.730754,
+	"exchange": "BinanceFutures",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.730754,
+	"volume": 212497002.09972802
+}, {
+	"price": 0.727976,
+	"exchange": "BW",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.727976,
+	"volume": 200745364.5664
+}, {
+	"price": 0.7293705,
+	"exchange": "BinanceUS",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7293705,
+	"volume": 151243997.67619652
+}, {
+	"price": 0.7289368827125,
+	"link": "https://www.kraken.com",
+	"exchange": "Kraken",
+	"pair": "XDG/EUR",
+	"pairPrice": 0.5992945,
+	"volume": 140463213.77562943
+}, {
+	"price": 0.7335267549578265,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/GBP",
+	"pairPrice": 0.52451,
+	"volume": 137535797.54589382
+}, {
+	"price": 0.7283725,
+	"exchange": "FTX",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.7283725,
+	"volume": 134509119.374214
+}, {
+	"price": 0.72453313,
+	"exchange": "BitForex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72453313,
+	"volume": 121612735.40793659
+}, {
+	"price": 0.7401446510519999,
+	"exchange": "ZBCom",
+	"pair": "DOGE/QC",
+	"pairPrice": 0.155404,
+	"volume": 118340606.9375579
+}, {
+	"price": 0.72959,
+	"exchange": "CoinEx",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72959,
+	"volume": 111499884.83897987
+}, {
+	"price": 0.728007712839,
+	"link": "www.huobipro.com",
+	"exchange": "HuobiPro",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57856.91,
+	"volume": 109379452.34111708
+}, {
+	"price": 0.775381629938599,
+	"exchange": "WazirX",
+	"pair": "DOGE/INR",
+	"pairPrice": 56.8,
+	"volume": 84537638.4192173
+}, {
+	"price": 0.7500265385774134,
+	"exchange": "Indodax",
+	"pair": "DOGE/IDR",
+	"pairPrice": 10599,
+	"volume": 83032688.5936994
+}, {
+	"price": 0.72299,
+	"exchange": "Bkex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72299,
+	"volume": 79886359.41571939
+}, {
+	"price": 0.72996,
+	"link": "https://www.bitfinex.com",
+	"exchange": "Bitfinex",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.72996,
+	"volume": 66487940.01357345
+}, {
+	"price": 0.7295792919999999,
+	"link": "https://www.okex.com/",
+	"exchange": "OKEX",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57857.2,
+	"volume": 65287250.601200044
+}, {
+	"price": 0.7290019175,
+	"exchange": "BitForex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57903.25,
+	"volume": 51417978.69353544
+}, {
+	"price": 0.7285943,
+	"exchange": "CoinTiger",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7285943,
+	"volume": 51208139.52624378
+}, {
+	"price": 0.7288,
+	"link": "https://bittrex.com",
+	"exchange": "Bittrex",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.7288,
+	"volume": 50069538.7809302
+}, {
+	"price": 0.7490746895860588,
+	"exchange": "Crypto.com",
+	"pair": "DOGE/CRO",
+	"pairPrice": 0.19688658192347652,
+	"volume": 47504996.55442596
+}, {
+	"price": 0.726729,
+	"exchange": "LBank",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.726729,
+	"volume": 46108206.21194673
+}, {
+	"price": 0.728352864,
+	"exchange": "BitForex",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3542.4,
+	"volume": 45170321.08256971
+}, {
+	"price": 0.7275001,
+	"exchange": "MXC",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7275001,
+	"volume": 43523116.327383116
+}, {
+	"price": 0.729019177,
+	"link": "https://bittrex.com",
+	"exchange": "Bittrex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57950.65,
+	"volume": 39314249.91846603
+}, {
+	"price": 0.737852362199595,
+	"exchange": "Oceanex",
+	"pair": "DOGE/VET",
+	"pairPrice": 0.22904711063500188,
+	"volume": 35328951.79192567
+}, {
+	"price": 0.7798949686779534,
+	"exchange": "GOPAX",
+	"pair": "DOGE/KRW",
+	"pairPrice": 868,
+	"volume": 35255701.07847223
+}, {
+	"price": 0.7278325606176,
+	"link": "https://poloniex.com",
+	"exchange": "Poloniex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57902.35168,
+	"volume": 34165666.80015177
+}, {
+	"price": 0.72938,
+	"exchange": "Bitrue",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72938,
+	"volume": 33319928.83706
+}, {
+	"price": 0.7360369308790745,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/BRL",
+	"pairPrice": 3.8534,
+	"volume": 32678148.55883328
+}, {
+	"price": 0.7373142737056749,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/AUD",
+	"pairPrice": 0.93999,
+	"volume": 32148591.03865632
+}, {
+	"price": 0.72720694,
+	"link": "https://bittrex.com",
+	"exchange": "Bittrex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72720694,
+	"volume": 31956795.81799328
+}, {
+	"price": 0.72582,
+	"link": "https://www.exx.com/",
+	"exchange": "Exx",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72582,
+	"volume": 29863659.073595997
+}, {
+	"price": 0.72794985,
+	"link": "https://poloniex.com",
+	"exchange": "Poloniex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72794985,
+	"volume": 29083001.94948833
+}, {
+	"price": 0.728340365,
+	"link": "https://www.okex.com/",
+	"exchange": "OKEX",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3537.35,
+	"volume": 27135020.474625275
+}, {
+	"price": 0.726094055,
+	"link": "https://www.kucoin.com",
+	"exchange": "Kucoin",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57856.1,
+	"volume": 23622473.408890534
+}, {
+	"price": 0.7261958417000001,
+	"link": "www.huobipro.com",
+	"exchange": "HuobiPro",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3537.07,
+	"volume": 23529596.509881504
+}, {
+	"price": 0.73119,
+	"exchange": "BitMart",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.73119,
+	"volume": 22067776.240506
+}, {
+	"price": 0.72753863,
+	"link": "https://exmo.com",
+	"exchange": "Exmo",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.72753863,
+	"volume": 20306154.667382855
+}, {
+	"price": 0.7249929421,
+	"exchange": "CoinEx",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57860.57,
+	"volume": 16587296.786899686
+}, {
+	"price": 0.726025435441555,
+	"link": "https://yobit.net/",
+	"exchange": "Yobit",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57850.6323061,
+	"volume": 16283740.899619984
+}, {
+	"price": 0.72616757775,
+	"exchange": "Crypto.com",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57894.25,
+	"volume": 15865554.61070652
+}, {
+	"price": 0.72797,
+	"link": "https://www.kraken.com",
+	"exchange": "Kraken",
+	"pair": "XDG/USDT",
+	"pairPrice": 0.72797,
+	"volume": 15126514.505587285
+}, {
+	"price": 0.72663,
+	"exchange": "Crypto.com",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72663,
+	"volume": 14759432.9009256
+}, {
+	"price": 0.7280751164500001,
+	"exchange": "LiteBit",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.5985860000000001,
+	"volume": 14076050.436148224
+}, {
+	"price": 0.72981,
+	"link": "https://www.bitfinex.com",
+	"exchange": "Bitfinex",
+	"pair": "DOGE/UST",
+	"pairPrice": 1,
+	"volume": 12117569.859028313
+}, {
+	"price": 0.7295020940952754,
+	"exchange": "Bitrue",
+	"pair": "DOGE/XRP",
+	"pairPrice": 1.582468370453319,
+	"volume": 11532466.696836496
+}, {
+	"price": 0.2800571243386,
+	"link": "https://hitbtc.com/",
+	"exchange": "HitBTC",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57869.14,
+	"volume": 11289822.989968764
+}, {
+	"price": 0.73123,
+	"exchange": "Latoken",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.73123,
+	"volume": 10479176.768957943
+}, {
+	"price": 0.72903411,
+	"exchange": "Bitrue",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57859.85,
+	"volume": 9367525.49916708
+}, {
+	"price": 0.7747127267719267,
+	"exchange": "Bitbns",
+	"pair": "DOGE/INR",
+	"pairPrice": 56.751,
+	"volume": 9134856.230356738
+}, {
+	"price": 0.7300002,
+	"exchange": "WazirX",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7300002,
+	"volume": 9016920.8603886
+}, {
+	"price": 0.74966284,
+	"link": "www.huobipro.com",
+	"exchange": "HuobiPro",
+	"pair": "DOGE/HUSD",
+	"pairPrice": 1.03,
+	"volume": 8757608.796755085
+}, {
+	"price": 0.7282127448,
+	"link": "https://bittrex.com",
+	"exchange": "Bittrex",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3542.58,
+	"volume": 8355514.543470241
+}, {
+	"price": 0.7071886387999999,
+	"link": "https://www.bibox.com/",
+	"exchange": "Bibox",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3536.12,
+	"volume": 7668064.0902243685
+}, {
+	"price": 0.28043617,
+	"link": "https://hitbtc.com/",
+	"exchange": "HitBTC",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.28043617,
+	"volume": 7596079.2813596
+}, {
+	"price": 0.72729,
+	"exchange": "BitMax",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72729,
+	"volume": 7003431.05481
+}, {
+	"price": 0.7257888180000001,
+	"link": "https://www.kucoin.com",
+	"exchange": "Kucoin",
+	"pair": "DOGE/USDC",
+	"pairPrice": 0.998334,
+	"volume": 6469066.918427104
+}, {
+	"price": 0.7281952,
+	"exchange": "Oceanex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7281952,
+	"volume": 5866835.703936
+}, {
+	"price": 0.7541124151299438,
+	"exchange": "AltcoinTrader",
+	"pair": "DOGE/ZAR",
+	"pairPrice": 10.615,
+	"volume": 5717526.756521892
+}, {
+	"price": 0.7342691357383453,
+	"exchange": "NovaDAX",
+	"pair": "DOGE/BRL",
+	"pairPrice": 3.844145,
+	"volume": 5311611.144289223
+}, {
+	"price": 0.7279791654,
+	"exchange": "DigiFinex",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3536.97,
+	"volume": 5150806.458597509
+}, {
+	"price": 0.7368930804503135,
+	"exchange": "CoinEx",
+	"pair": "DOGE/BCH",
+	"pairPrice": 1379.8113493316935,
+	"volume": 4565495.294531569
+}, {
+	"price": 0.7339828608151981,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/RUB",
+	"pairPrice": 54.133,
+	"volume": 4521265.270948337
+}, {
+	"price": 0.28122860847279996,
+	"link": "https://hitbtc.com/",
+	"exchange": "HitBTC",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3536.924,
+	"volume": 4083584.87866208
+}, {
+	"price": 0.729978477768666,
+	"exchange": "Upbit",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57934.79982291,
+	"volume": 4047000.1017916035
+}, {
+	"price": 0.73025216316,
+	"link": "https://gate.io",
+	"exchange": "Gate.io",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57850.92,
+	"volume": 3816755.7362069823
+}, {
+	"price": 0.00427557137,
+	"link": "https://www.binance.com/?ref=10951886",
+	"exchange": "Binance",
+	"pair": "DOGE/TRY",
+	"pairPrice": 0.00070945,
+	"volume": 3583797.8118489766
+}, {
+	"price": 0.7789964721702599,
+	"exchange": "Probit",
+	"pair": "DOGE/KRW",
+	"pairPrice": 867,
+	"volume": 3555571.6539973803
+}, {
+	"price": 0.730559,
+	"exchange": "Coineal",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.730559,
+	"volume": 3311550.28441829
+}, {
+	"price": 0.72840696946,
+	"exchange": "Probit",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57882.2,
+	"volume": 3288228.994961278
+}, {
+	"price": 0.73222765,
+	"exchange": "Bitpanda Pro",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.602,
+	"volume": 3257333.00671625
+}, {
+	"price": 0.7297870694,
+	"exchange": "Coineal",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3538.19,
+	"volume": 2958382.66217158
+}, {
+	"price": 0.729986,
+	"exchange": "Probit",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.729986,
+	"volume": 2544679.9722981774
+}, {
+	"price": 0.72905057168,
+	"exchange": "Coineal",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57892.4,
+	"volume": 2350732.186959743
+}, {
+	"price": 0.72889,
+	"exchange": "BitMEX",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72889,
+	"volume": 2335110
+}, {
+	"price": 0.730719407,
+	"link": "https://bittrex.com",
+	"exchange": "Bittrex",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.60076,
+	"volume": 2272244.7088369248
+}, {
+	"price": 0.7299384,
+	"exchange": "WazirX",
+	"pair": "DOGE/WRX",
+	"pairPrice": 2.48,
+	"volume": 2244505.83462
+}, {
+	"price": 0.57491,
+	"exchange": "Currency.com",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.57491,
+	"volume": 1830066.73493
+}, {
+	"price": 35.13151315131513,
+	"exchange": "SatoExchange",
+	"pair": "BTCA/DOGE",
+	"pairPrice": 0.0070256,
+	"volume": 1818782.912844119
+}, {
+	"price": 0.7340235266,
+	"link": "https://exmo.com",
+	"exchange": "Exmo",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57933.98,
+	"volume": 1585480.4834595595
+}, {
+	"price": 0.72995,
+	"link": "https://www.okex.com/",
+	"exchange": "OKEX",
+	"pair": "DOGE/USDK",
+	"pairPrice": 1,
+	"volume": 1551545.1439
+}, {
+	"price": 0.7301720199999999,
+	"link": "https://www.kucoin.com",
+	"exchange": "Kucoin",
+	"pair": "DOGE/KCS",
+	"pairPrice": 13.19,
+	"volume": 1505486.5897167386
+}, {
+	"price": 0.7380171162,
+	"exchange": "Vindax",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57929.13,
+	"volume": 1419913.1968328033
+}, {
+	"price": 0.729999,
+	"link": "https://www.okcoin.com/",
+	"exchange": "OKCoin",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.729999,
+	"volume": 1161203.4887336304
+}, {
+	"price": 0.727675,
+	"exchange": "BTCAlpha",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.727675,
+	"volume": 1120096.7493416423
+}, {
+	"price": 0.30570086,
+	"exchange": "Hotbit",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.30570086,
+	"volume": 1078541.36996084
+}, {
+	"price": 0.72977449743,
+	"exchange": "BitMax",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57877.27,
+	"volume": 1044772.1721771929
+}, {
+	"price": 0.73359761683122,
+	"link": "https://poloniex.com",
+	"exchange": "Poloniex",
+	"pair": "DOGE/USDC",
+	"pairPrice": 0.998334,
+	"volume": 964388.3766550503
+}, {
+	"price": 0.71316000000126,
+	"exchange": "TradeOgre",
+	"pair": "DOGE/BTC",
+	"pairPrice": 56600.0000001,
+	"volume": 794585.5756074039
+}, {
+	"price": 719791.826,
+	"link": "https://www.bitfinex.com",
+	"exchange": "Bitfinex",
+	"pair": "DOG/BTC",
+	"pairPrice": 57889,
+	"volume": 783206.2560478539
+}, {
+	"price": 0.72918657,
+	"exchange": "CatEx",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57871.95,
+	"volume": 722270.8843595972
+}, {
+	"price": 0.727838,
+	"exchange": "BigOne",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.727838,
+	"volume": 608921.644046
+}, {
+	"price": 0.7291799,
+	"exchange": "Exrates",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7291799,
+	"volume": 460092.54649706086
+}, {
+	"price": 0.7358974,
+	"exchange": "Upbit",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7358974,
+	"volume": 358650.97305789706
+}, {
+	"price": 0.729118528688,
+	"link": "https://exmo.com",
+	"exchange": "Exmo",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.59944384,
+	"volume": 343461.4668301949
+}, {
+	"price": 0.716107,
+	"link": "https://www.bibox.com/",
+	"exchange": "Bibox",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.716107,
+	"volume": 283760.979285
+}, {
+	"price": 0.7298913,
+	"exchange": "Exrates",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.7298913,
+	"volume": 281962.2367630409
+}, {
+	"price": 0.0031105,
+	"exchange": "P2PB2B",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.0031105,
+	"volume": 275715.4758515
+}, {
+	"price": 0.6547932063099999,
+	"exchange": "SatoExchange",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57488.429,
+	"volume": 269726.3234934454
+}, {
+	"price": 0.7420332515059169,
+	"link": "https://exmo.com",
+	"exchange": "Exmo",
+	"pair": "DOGE/GBP",
+	"pairPrice": 0.53059259,
+	"volume": 246625.53741628726
+}, {
+	"price": 0.0031105,
+	"exchange": "P2PB2B",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.0031105,
+	"volume": 243943.26426999999
+}, {
+	"price": 0.21165030307537497,
+	"exchange": "Mercatox",
+	"pair": "XRB/DOGE",
+	"pairPrice": 10.074983215086359,
+	"volume": 206280.26297975375
+}, {
+	"price": 0.7041310031594986,
+	"exchange": "Koinim",
+	"pair": "DOGE/TRY",
+	"pairPrice": 5.8,
+	"volume": 196517.0450783962
+}, {
+	"price": 0.7273950669515299,
+	"exchange": "SouthXchange",
+	"pair": "DOGE/BTC",
+	"pairPrice": 58331.601199,
+	"volume": 144455.08419387057
+}, {
+	"price": 0.7728401304,
+	"exchange": "Bitsten",
+	"pair": "DOGE/BST",
+	"pairPrice": 0.02871944,
+	"volume": 132927.62979055414
+}, {
+	"price": 0.7275678015,
+	"exchange": "Exrates",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57973.53,
+	"volume": 87526.95916241358
+}, {
+	"price": 0.7768299742710121,
+	"exchange": "Hotbit",
+	"pair": "RENDOGE/DOGE",
+	"pairPrice": 0.724627,
+	"volume": 73111.241165
+}, {
+	"price": 0.70987812485,
+	"link": "https://www.bibox.com/",
+	"exchange": "Bibox",
+	"pair": "DOGE/BIX",
+	"pairPrice": 0.212567,
+	"volume": 68065.24424499254
+}, {
+	"price": 0.678018188103993,
+	"exchange": "SatoExchange",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3396.03400002,
+	"volume": 63495.09099441251
+}, {
+	"price": 763.5492593463438,
+	"exchange": "Bololex",
+	"pair": "JDC/DOGE",
+	"pairPrice": 0.129895,
+	"volume": 50387.98794571101
+}, {
+	"price": 0.71050576,
+	"exchange": "Crex24",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57760,
+	"volume": 40037.10853336656
+}, {
+	"price": 0.7629926837960995,
+	"exchange": "Chainex",
+	"pair": "DOGE/ZAR",
+	"pairPrice": 10.74,
+	"volume": 28508.11905588367
+}, {
+	"price": 0.7214510093750001,
+	"exchange": "STEX",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57716.08075,
+	"volume": 25046.645263763607
+}, {
+	"price": 38.666666666666664,
+	"exchange": "Bololex",
+	"pair": "MIC3/DOGE",
+	"pairPrice": 5.8e-7,
+	"volume": 23603.721296
+}, {
+	"price": 0.23180837925628528,
+	"exchange": "Mercatox",
+	"pair": "DOGE/BTC",
+	"pairPrice": 58097.33815947,
+	"volume": 23128.550321285005
+}, {
+	"price": 0.0014630142619095029,
+	"exchange": "Koineks",
+	"pair": "DOGE/TRY",
+	"pairPrice": 0.012051,
+	"volume": 21008.92137793376
+}, {
+	"price": 0.688709282224,
+	"exchange": "Graviex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57012.3578,
+	"volume": 20743.900784309633
+}, {
+	"price": 0.6951915541840501,
+	"exchange": "Bololex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57942.7695,
+	"volume": 20490.121530287546
+}, {
+	"price": 0.7374975,
+	"link": "https://bleutrade.com/",
+	"exchange": "Bleutrade",
+	"pair": "DOGE/BTC",
+	"pairPrice": 58999.8,
+	"volume": 14457.741100542
+}, {
+	"price": 0.681912,
+	"exchange": "Crex24",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.681912,
+	"volume": 12028.668461330008
+}, {
+	"price": 0.7028000754389739,
+	"exchange": "FreiExchange",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57891.27474785617,
+	"volume": 11604.794046653893
+}, {
+	"price": 0.5210400000000001,
+	"exchange": "CoinFalcon",
+	"pair": "DOGE/BTC",
+	"pairPrice": 52000,
+	"volume": 11241.93304
+}, {
+	"price": 0.74499999,
+	"exchange": "Bololex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.74499999,
+	"volume": 11138.098659495317
+}, {
+	"price": 0.5000416655092914,
+	"exchange": "SatoExchange",
+	"pair": "BRAT/DOGE",
+	"pairPrice": 0.00018002,
+	"volume": 8678.221492272554
+}, {
+	"price": 165.55555555555557,
+	"exchange": "Bololex",
+	"pair": "LIME/DOGE",
+	"pairPrice": 1.49,
+	"volume": 5858.24939
+}, {
+	"price": 0.7040858246592037,
+	"exchange": "STEX",
+	"pair": "DOGE/LTC",
+	"pairPrice": 347.7482217904893,
+	"volume": 5192.722049142986
+}, {
+	"price": 0.0026056206960729574,
+	"exchange": "CoinSquare",
+	"pair": "DOGE/BTC",
+	"pairPrice": 9305.788200260562,
+	"volume": 4948.866741112973
+}, {
+	"price": 0.72028,
+	"exchange": "Bitsten",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.72028,
+	"volume": 4826.2574622
+}, {
+	"price": 0.6550900000000001,
+	"link": "https://tidex.com/",
+	"exchange": "Tidex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 60100,
+	"volume": 2526.027034767093
+}, {
+	"price": 0.6115167827974931,
+	"exchange": "CRXzone",
+	"pair": "DOGE/SGD",
+	"pairPrice": 0.81,
+	"volume": 2446.0671311899723
+}, {
+	"price": 0.8191676494639999,
+	"exchange": "SatoExchange",
+	"pair": "DOGE/SATX",
+	"pairPrice": 0.00836324,
+	"volume": 2031.2223762555996
+}, {
+	"price": 0.711246,
+	"exchange": "SouthXchange",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.711246,
+	"volume": 1757.1583317901275
+}, {
+	"price": 0.808192,
+	"exchange": "Graviex",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3850,
+	"volume": 1697.2589652479999
+}, {
+	"price": 0.7216479593541747,
+	"exchange": "SouthXchange",
+	"pair": "GLC/DOGE",
+	"pairPrice": 0.275113,
+	"volume": 1608.7723898285208
+}, {
+	"price": 0.7225164804140997,
+	"exchange": "SouthXchange",
+	"pair": "DOGE/LTC",
+	"pairPrice": 347.7482217904893,
+	"volume": 1470.6380751215108
+}, {
+	"price": 0.662552,
+	"exchange": "SouthXchange",
+	"pair": "SCP/DOGE",
+	"pairPrice": 0.165638,
+	"volume": 1315.9807523765194
+}, {
+	"price": 0.6936142378244258,
+	"exchange": "SouthXchange",
+	"pair": "NYC/DOGE",
+	"pairPrice": 0.00010579004355298143,
+	"volume": 1237.8769559074726
+}, {
+	"price": 0.73574380412,
+	"exchange": "Chainex",
+	"pair": "DOGE/BTC",
+	"pairPrice": 58299.826,
+	"volume": 1165.9965200000001
+}, {
+	"price": 0.7215189873417723,
+	"exchange": "SouthXchange",
+	"pair": "MNMC/DOGE",
+	"pairPrice": 5.7e-7,
+	"volume": 1140.8047882483768
+}, {
+	"price": 0.6656186199999999,
+	"exchange": "BTCAlpha",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57879.88,
+	"volume": 1115.3553389250378
+}, {
+	"price": 0.7,
+	"exchange": "Graviex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.7,
+	"volume": 874.0951656654
+}, {
+	"price": 0.7302712657600275,
+	"exchange": "Graviex",
+	"pair": "DOGE/LTC",
+	"pairPrice": 347.7482217904893,
+	"volume": 799.7632951927392
+}, {
+	"price": 0.710583,
+	"exchange": "DragonEX",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.710583,
+	"volume": 761.0343929999999
+}, {
+	"price": 0.6800512297,
+	"exchange": "SouthXchange",
+	"pair": "DOGE/DAI",
+	"pairPrice": 0.998425,
+	"volume": 680.0512451779658
+}, {
+	"price": 0.9499999,
+	"exchange": "Vindax",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.9499999,
+	"volume": 669.93992948
+}, {
+	"price": 0.6395753153461082,
+	"link": "https://localbitcoins.com",
+	"exchange": "LocalBitcoins",
+	"pair": "BTC/DOGE",
+	"pairPrice": 59840.63,
+	"volume": 615.1568891495999
+}, {
+	"price": 0.7221324870365861,
+	"exchange": "Graviex",
+	"pair": "GLF/DOGE",
+	"pairPrice": 0.990721,
+	"volume": 604.6981537857
+}, {
+	"price": 0.6389117043121151,
+	"exchange": "SouthXchange",
+	"pair": "BBP/DOGE",
+	"pairPrice": 0.00068453,
+	"volume": 466.23949519009017
+}, {
+	"price": 0.3294098270010176,
+	"exchange": "FinexBox",
+	"pair": "808TA/DOGE",
+	"pairPrice": 5.6e-7,
+	"volume": 335.88432076584
+}, {
+	"price": 0.7047923968060268,
+	"exchange": "Graviex",
+	"pair": "NYC/DOGE",
+	"pairPrice": 0.00010579004355298143,
+	"volume": 308.1678864253851
+}, {
+	"price": 0.6922847682119205,
+	"exchange": "SatoExchange",
+	"pair": "TICO/DOGE",
+	"pairPrice": 0.104535,
+	"volume": 302.3519480325113
+}, {
+	"price": 1.1302602773047923,
+	"exchange": "SouthXchange",
+	"pair": "HTH/DOGE",
+	"pairPrice": 0.00009293,
+	"volume": 298.9737300590367
+}, {
+	"price": 0.7044913505792731,
+	"exchange": "SouthXchange",
+	"pair": "EXUS/DOGE",
+	"pairPrice": 0.0004439,
+	"volume": 277.8857328116048
+}, {
+	"price": 1.0687371455599999,
+	"link": "https://coingi.com/",
+	"exchange": "Coingi",
+	"pair": "DOGE/BTC",
+	"pairPrice": 56968.931,
+	"volume": 270.39049782668
+}, {
+	"price": 0.9,
+	"link": "https://coingi.com/",
+	"exchange": "Coingi",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.9,
+	"volume": 270
+}, {
+	"price": 0.6959599751889574,
+	"exchange": "SouthXchange",
+	"pair": "DOGE/DASH",
+	"pairPrice": 427.9301838416059,
+	"volume": 247.643008633778
+}, {
+	"price": 0.7953685536885334,
+	"exchange": "Graviex",
+	"pair": "GIO/DOGE",
+	"pairPrice": 0.085998,
+	"volume": 228.20679534180002
+}, {
+	"price": 0.71435432,
+	"exchange": "Crex24",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3548,
+	"volume": 172.941306512768
+}, {
+	"price": 0.7559154998292432,
+	"exchange": "SouthXchange",
+	"pair": "SMLY/DOGE",
+	"pairPrice": 0.00015494,
+	"volume": 168.5829608820803
+}, {
+	"price": 0.8266549295774648,
+	"exchange": "SouthXchange",
+	"pair": "PETAL/DOGE",
+	"pairPrice": 0.00046954,
+	"volume": 154.39805256184994
+}, {
+	"price": 0.7251335730903824,
+	"exchange": "SouthXchange",
+	"pair": "PPC/DOGE",
+	"pairPrice": 1.04,
+	"volume": 147.8551672
+}, {
+	"price": 0.6983163365579893,
+	"exchange": "SouthXchange",
+	"pair": "MANNA/DOGE",
+	"pairPrice": 0.0015989,
+	"volume": 128.794318061013
+}, {
+	"price": 0.5110019133762393,
+	"exchange": "SatoExchange",
+	"pair": "DCN/DOGE",
+	"pairPrice": 0.00011751,
+	"volume": 116.75229552
+}, {
+	"price": 0.6740684755255878,
+	"exchange": "SouthXchange",
+	"pair": "TRX/DOGE",
+	"pairPrice": 0.14707067315531513,
+	"volume": 109.96020298190219
+}, {
+	"price": 0.9896000000000001,
+	"exchange": "Graviex",
+	"pair": "XCASH/DOGE",
+	"pairPrice": 0.00029688,
+	"volume": 94.542399434976
+}, {
+	"price": 0.1861624504611282,
+	"exchange": "Ataix",
+	"pair": "BAN/DOGE",
+	"pairPrice": 0.050262,
+	"volume": 92.884176
+}, {
+	"price": 0.6885166290345999,
+	"exchange": "SouthXchange",
+	"pair": "RABBIT/DOGE",
+	"pairPrice": 0.00137525,
+	"volume": 83.6244788893416
+}, {
+	"price": 0.7152317880794702,
+	"exchange": "SouthXchange",
+	"pair": "GCN/DOGE",
+	"pairPrice": 0.00000108,
+	"volume": 73.9579452777603
+}, {
+	"price": 0.6101617015725835,
+	"exchange": "SouthXchange",
+	"pair": "PINK/DOGE",
+	"pairPrice": 0.01796205,
+	"volume": 67.70245036975686
+}, {
+	"price": 0.7130797080704072,
+	"exchange": "SouthXchange",
+	"pair": "IBH/DOGE",
+	"pairPrice": 0.00535525,
+	"volume": 58.08928124622468
+}, {
+	"price": 0.4703603603603604,
+	"exchange": "Graviex",
+	"pair": "CDEX/DOGE",
+	"pairPrice": 0.00010442,
+	"volume": 46.293165314828
+}, {
+	"price": 0.7316442443033204,
+	"exchange": "SouthXchange",
+	"pair": "SC/DOGE",
+	"pairPrice": 0.04224947,
+	"volume": 35.34941521177112
+}, {
+	"price": 0.30894,
+	"exchange": "Bololex",
+	"pair": "PUT/DOGE",
+	"pairPrice": 0.00046341,
+	"volume": 30.95135455653
+}, {
+	"price": 0.706384,
+	"exchange": "SouthXchange",
+	"pair": "BTCF/DOGE",
+	"pairPrice": 0.00088298,
+	"volume": 29.624102942410364
+}, {
+	"price": 9.946322067594433,
+	"exchange": "SatoExchange",
+	"pair": "STQ/DOGE",
+	"pairPrice": 0.00010006,
+	"volume": 25.65423331
+}, {
+	"price": 0.3443088948253686,
+	"exchange": "Graviex",
+	"pair": "ABET/DOGE",
+	"pairPrice": 0.00347993,
+	"volume": 25.342170197448997
+}, {
+	"price": 0.69507,
+	"exchange": "Graviex",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.69507,
+	"volume": 24.140823704999995
+}, {
+	"price": 0.0038026520000000005,
+	"exchange": "Bithesap",
+	"pair": "DOGE/TRY",
+	"pairPrice": 0.00070945,
+	"volume": 17.851131522280003
+}, {
+	"price": 0.4674615072647408,
+	"exchange": "SouthXchange",
+	"pair": "OMEGA/DOGE",
+	"pairPrice": 0.0023168,
+	"volume": 16.76368972812851
+}, {
+	"price": 0.70588,
+	"exchange": "SouthXchange",
+	"pair": "GUN/DOGE",
+	"pairPrice": 0.00070588,
+	"volume": 16.296986587306765
+}, {
+	"price": 0.4881210423888056,
+	"exchange": "Graviex",
+	"pair": "DOGE/RUB",
+	"pairPrice": 36.0001,
+	"volume": 15.804285486256273
+}, {
+	"price": 0.595,
+	"exchange": "SatoExchange",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.595,
+	"volume": 14.22069567765
+}, {
+	"price": 0.46726694308823413,
+	"exchange": "SouthXchange",
+	"pair": "CARE/DOGE",
+	"pairPrice": 0.00057136,
+	"volume": 9.528413155018638
+}, {
+	"price": 0.639,
+	"exchange": "Ataix",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.639,
+	"volume": 5.112
+}, {
+	"price": 0.768088,
+	"link": "https://bleutrade.com/",
+	"exchange": "Bleutrade",
+	"pair": "DOGE/CBRL",
+	"pairPrice": 0.192022,
+	"volume": 4.3781016
+}, {
+	"price": 0.097,
+	"exchange": "Graviex",
+	"pair": "CVA/DOGE",
+	"pairPrice": 0.0000679,
+	"volume": 4.27038762493
+}, {
+	"price": 0.05651,
+	"exchange": "TokensNet",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.05651,
+	"volume": 2.8255
+}, {
+	"price": 0.6958333333333334,
+	"exchange": "SouthXchange",
+	"pair": "BTCX/DOGE",
+	"pairPrice": 0.00000167,
+	"volume": 2.75044802185791
+}, {
+	"price": 2.6923076923076925,
+	"exchange": "SouthXchange",
+	"pair": "BITH/DOGE",
+	"pairPrice": 0.0000035,
+	"volume": 2.67094527896112
+}, {
+	"price": 0.668759053597296,
+	"exchange": "SouthXchange",
+	"pair": "MLM/DOGE",
+	"pairPrice": 0.0000554,
+	"volume": 2.010601714456422
+}, {
+	"price": 0.17792340425531913,
+	"exchange": "Bololex",
+	"pair": "BTFC/DOGE",
+	"pairPrice": 0.00167248,
+	"volume": 1.6890371171551999
+}, {
+	"price": 0.6666666666666666,
+	"exchange": "SouthXchange",
+	"pair": "IVI/DOGE",
+	"pairPrice": 6e-8,
+	"volume": 1.3047980429316681
+}, {
+	"price": 0.5841083333333335,
+	"exchange": "Bololex",
+	"pair": "NBR/DOGE",
+	"pairPrice": 0.350465,
+	"volume": 1.051395
+}, {
+	"price": 0.6554434360783585,
+	"exchange": "SouthXchange",
+	"pair": "TTN/DOGE",
+	"pairPrice": 0.00225913,
+	"volume": 1.0118031660027447
+}, {
+	"price": 0.6766431425899158,
+	"exchange": "SouthXchange",
+	"pair": "VTAR/DOGE",
+	"pairPrice": 0.00007958,
+	"volume": 0.9765665494713196
+}, {
+	"price": 0.3306390510474931,
+	"exchange": "SatoExchange",
+	"pair": "XLM/DOGE",
+	"pairPrice": 0.6282141969902368,
+	"volume": 0.5867989750251125
+}, {
+	"price": 0.7114320421109461,
+	"exchange": "SouthXchange",
+	"pair": "XGOX/DOGE",
+	"pairPrice": 0.00005271,
+	"volume": 0.5298440505085708
+}, {
+	"price": 0.05267347449339307,
+	"exchange": "Bololex",
+	"pair": "SVI/DOGE",
+	"pairPrice": 0.00002316,
+	"volume": 0.507420087432
+}, {
+	"price": 0.7487285324684897,
+	"exchange": "SouthXchange",
+	"pair": "PMC/DOGE",
+	"pairPrice": 0.00010158,
+	"volume": 0.4717077346280886
+}, {
+	"price": 0.7382119954734062,
+	"exchange": "SouthXchange",
+	"pair": "ATO/DOGE",
+	"pairPrice": 0.00011742,
+	"volume": 0.4071364660194906
+}, {
+	"price": 0.6948693335247205,
+	"exchange": "SouthXchange",
+	"pair": "XAX/DOGE",
+	"pairPrice": 0.00077455,
+	"volume": 0.3738181874744135
+}, {
+	"price": 0.7432432432432433,
+	"exchange": "SouthXchange",
+	"pair": "CELC/DOGE",
+	"pairPrice": 0.0000132,
+	"volume": 0.2771002494216
+}, {
+	"price": 0.7616399661581289,
+	"exchange": "SouthXchange",
+	"pair": "KONJ/DOGE",
+	"pairPrice": 0.00223258,
+	"volume": 0.2671067084398258
+}, {
+	"price": 0.7089211913923329,
+	"exchange": "SouthXchange",
+	"pair": "ERZ/DOGE",
+	"pairPrice": 0.00079592,
+	"volume": 0.19066365528698878
+}, {
+	"price": 2244.795,
+	"exchange": "Ataix",
+	"pair": "BTCM/DOGE",
+	"pairPrice": 0.00448959,
+	"volume": 0.16806780165000001
+}, {
+	"price": 0.000008,
+	"exchange": "Bololex",
+	"pair": "RAT/DOGE",
+	"pairPrice": 2e-8,
+	"volume": 0.16482884279999999
+}, {
+	"price": 0.00005896620689655172,
+	"exchange": "Bololex",
+	"pair": "MAR/DOGE",
+	"pairPrice": 0.00085501,
+	"volume": 0.0598507
+}, {
+	"price": 0.6952033333333334,
+	"exchange": "Bololex",
+	"pair": "RDCT/DOGE",
+	"pairPrice": 0.01042805,
+	"volume": 0.02086652805
+}, {
+	"price": 0.00079968,
+	"exchange": "Bololex",
+	"pair": "CREED/DOGE",
+	"pairPrice": 0.00019992,
+	"volume": 0.014994
+}, {
+	"price": 0.27142857142857146,
+	"exchange": "SatoExchange",
+	"pair": "WLLO/DOGE",
+	"pairPrice": 5.7e-7,
+	"volume": 0.0129244460000019
+}, {
+	"price": 0.4658838701937496,
+	"exchange": "Bololex",
+	"pair": "WHX/DOGE",
+	"pairPrice": 0.00093201,
+	"volume": 0.0011249360700000001
+}, {
+	"price": 0.8142755904041584,
+	"exchange": "Graviex",
+	"pair": "PEPS/DOGE",
+	"pairPrice": 0.01042273,
+	"volume": 0.00100058208
+}, {
+	"price": 0.7142857142857142,
+	"exchange": "SouthXchange",
+	"pair": "TNR/DOGE",
+	"pairPrice": 2e-7,
+	"volume": 0.0004911637074319999
+}, {
+	"price": 0.6569029376007237,
+	"exchange": "SouthXchange",
+	"pair": "HYP/DOGE",
+	"pairPrice": 0.00023234,
+	"volume": 0.00023234
+}, {
+	"price": 0.6956521739130435,
+	"exchange": "SouthXchange",
+	"pair": "NTRS/DOGE",
+	"pairPrice": 1.6e-7,
+	"volume": 0.00022652329099039997
+}, {
+	"price": 0.8157209302325581,
+	"exchange": "Graviex",
+	"pair": "CBTC/DOGE",
+	"pairPrice": 0.00035076,
+	"volume": 0.000068187744
+}, {
+	"price": 1.025620975609756,
+	"exchange": "Graviex",
+	"pair": "TRTT/DOGE",
+	"pairPrice": 0.04205046,
+	"volume": 0.000016820184
+}, {
+	"price": 0.0002004008016032064,
+	"exchange": "Ataix",
+	"pair": "NINJA/DOGE",
+	"pairPrice": 0.000001,
+	"volume": 1e-8
+}, {
+	"price": 0.000041837979355046895,
+	"exchange": "Ataix",
+	"pair": "XVP/DOGE",
+	"pairPrice": 0.000006275696903257034
+}, {
+	"price": 292.55699999999996,
+	"exchange": "Ataix",
+	"pair": "REEX/DOGE",
+	"pairPrice": 0.00292557
+}, {
+	"price": 23.4591,
+	"exchange": "Ataix",
+	"pair": "BTB/DOGE",
+	"pairPrice": 0.00234591
+}, {
+	"price": 95.16576923076924,
+	"exchange": "Ataix",
+	"pair": "SWIFT/DOGE",
+	"pairPrice": 0.01237155
+}, {
+	"price": 0.22973881940216384,
+	"exchange": "SatoExchange",
+	"pair": "BCH/DOGE",
+	"pairPrice": 1379.8113493316935
+}, {
+	"price": 0.7281,
+	"exchange": "Beaxy",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.7281,
+	"volume": 0
+}, {
+	"price": 0.3956170926133297,
+	"exchange": "SatoExchange",
+	"pair": "XRP/DOGE",
+	"pairPrice": 1.582468370453319
+}, {
+	"price": 0.1085866992,
+	"exchange": "Coinall",
+	"pair": "DOGE/ETH",
+	"pairPrice": 1810.08,
+	"volume": 0
+}, {
+	"price": 0.18928138821474633,
+	"exchange": "SatoExchange",
+	"pair": "DENT/DOGE",
+	"pairPrice": 0.00965393
+}, {
+	"price": 0.16681321290229353,
+	"exchange": "SatoExchange",
+	"pair": "WAVES/DOGE",
+	"pairPrice": 33.529455793361
+}, {
+	"price": 0.018223333333333334,
+	"exchange": "SatoExchange",
+	"pair": "BTCGW/DOGE",
+	"pairPrice": 0.00016401
+}, {
+	"price": 0.056186369337271634,
+	"exchange": "SatoExchange",
+	"pair": "ZRX/DOGE",
+	"pairPrice": 2.022709296141779
+}, {
+	"price": 0.6724746924,
+	"exchange": "BTCTradeUA",
+	"pair": "DOGE/BTC",
+	"pairPrice": 54921,
+	"volume": 0
+}, {
+	"price": 0.0016543085329970575,
+	"exchange": "SatoExchange",
+	"pair": "XPAT/DOGE",
+	"pairPrice": 0.00019678
+}, {
+	"price": 0.17259400892288082,
+	"exchange": "SatoExchange",
+	"pair": "ECR/DOGE",
+	"pairPrice": 0.00002708
+}, {
+	"price": 0.020320942857142858,
+	"exchange": "SatoExchange",
+	"pair": "CPC/DOGE",
+	"pairPrice": 0.01422466
+}, {
+	"price": 0.19303225806451613,
+	"exchange": "SatoExchange",
+	"pair": "INFO/DOGE",
+	"pairPrice": 0.0005984
+}, {
+	"price": 0.6504188068089021,
+	"exchange": "SatoExchange",
+	"pair": "DP/DOGE",
+	"pairPrice": 0.00195138
+}, {
+	"price": 0.000010714285714285714,
+	"exchange": "SatoExchange",
+	"pair": "EVI/DOGE",
+	"pairPrice": 3e-8
+}, {
+	"price": 0.07893333333333334,
+	"exchange": "SatoExchange",
+	"pair": "TORR/DOGE",
+	"pairPrice": 0.00001184
+}, {
+	"price": 0.38633969380034205,
+	"exchange": "SatoExchange",
+	"pair": "LTC/DOGE",
+	"pairPrice": 347.7482217904893
+}, {
+	"price": 1.6132963651526704,
+	"exchange": "Graviex",
+	"pair": "DOGE/DASH",
+	"pairPrice": 427.9301838416059,
+	"volume": 0
+}, {
+	"price": 0.010556691348350515,
+	"exchange": "SatoExchange",
+	"pair": "NEWS/DOGE",
+	"pairPrice": 0.0200575
+}, {
+	"price": 0.099999,
+	"exchange": "Bitibu",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.099999,
+	"volume": 0
+}, {
+	"price": 0.054891279412045524,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/DKK",
+	"pairPrice": 0.3356,
+	"volume": 0
+}, {
+	"price": 0.00330101586,
+	"exchange": "Bitibu",
+	"pair": "DOGE/BTC",
+	"pairPrice": 11003.3862,
+	"volume": 0
+}, {
+	"price": 2.52878,
+	"exchange": "SatoExchange",
+	"pair": "VGC/DOGE",
+	"pairPrice": 0.02023024
+}, {
+	"price": 0.2399999,
+	"exchange": "Tokok",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.2399999,
+	"volume": 0
+}, {
+	"price": 0.6406512757732935,
+	"exchange": "Bololex",
+	"pair": "MNS/DOGE",
+	"pairPrice": 0.00464969
+}, {
+	"price": 0.2191476290831659,
+	"exchange": "Bololex",
+	"pair": "ZYON/DOGE",
+	"pairPrice": 0.00145009
+}, {
+	"price": 0.024814739567475187,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DASH/DOGE",
+	"pairPrice": 427.9301838416059
+}, {
+	"price": 0.7294782652435428,
+	"exchange": "CoinSpot",
+	"pair": "DOGE/AUD",
+	"pairPrice": 0.93
+}, {
+	"price": 0.0404471753263901,
+	"exchange": "Bololex",
+	"pair": "HITX/DOGE",
+	"pairPrice": 0.00086921
+}, {
+	"price": 0.0251269616,
+	"exchange": "TokensNet",
+	"pair": "DOGE/BTC",
+	"pairPrice": 48321.08,
+	"volume": 0
+}, {
+	"price": 0.4050274811469457,
+	"exchange": "Bololex",
+	"pair": "DEM/DOGE",
+	"pairPrice": 0.00810058
+}, {
+	"price": 0.20859596248581597,
+	"exchange": "Bololex",
+	"pair": "PWC/DOGE",
+	"pairPrice": 0.01252615
+}, {
+	"price": 0.00012101,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.00012101,
+	"volume": 0
+}, {
+	"price": 0.71763175,
+	"exchange": "Graviex",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.59,
+	"volume": 0
+}, {
+	"price": 1541.52822420952,
+	"exchange": "Ataix",
+	"pair": "DOGE/ETH",
+	"pairPrice": 3425.491,
+	"volume": 0
+}, {
+	"price": 1.073233519368989,
+	"exchange": "SouthXchange",
+	"pair": "NSR/DOGE",
+	"pairPrice": 0.00052113
+}, {
+	"price": 0.72889,
+	"exchange": "UpHold",
+	"pair": "DOGE/USD",
+	"pairPrice": 0.72889
+}, {
+	"price": 0.0024176814730296815,
+	"exchange": "Ataix",
+	"pair": "PBQ/DOGE",
+	"pairPrice": 0.0011363102923239504
+}, {
+	"price": 36.3163079357,
+	"exchange": "Ataix",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57634.87,
+	"volume": 0
+}, {
+	"price": 0.006811772,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/NXT",
+	"pairPrice": 0.074041,
+	"volume": 0
+}, {
+	"price": 0.02191161545501873,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/LTC",
+	"pairPrice": 347.7482217904893,
+	"volume": 0
+}, {
+	"price": 0.7369606666666667,
+	"exchange": "Graviex",
+	"pair": "KEC/DOGE",
+	"pairPrice": 0.01105441
+}, {
+	"price": 12.30714,
+	"exchange": "Bololex",
+	"pair": "DOGE/BOLO",
+	"pairPrice": 0.136746,
+	"volume": 0
+}, {
+	"price": 0.3304522028783452,
+	"exchange": "SouthXchange",
+	"pair": "TRISM/DOGE",
+	"pairPrice": 0.342957
+}, {
+	"price": 118.4,
+	"exchange": "Ataix",
+	"pair": "TORR/DOGE",
+	"pairPrice": 0.00001184
+}, {
+	"price": 0.0003287483210000001,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/EUR",
+	"pairPrice": 0.00027028,
+	"volume": 0
+}, {
+	"price": 0.5039051851851852,
+	"exchange": "Graviex",
+	"pair": "PAC/DOGE",
+	"pairPrice": 0.01360544
+}, {
+	"price": 0.000019965784802842938,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/CNY",
+	"pairPrice": 0.00012843,
+	"volume": 0
+}, {
+	"price": 0.8383780000000001,
+	"exchange": "Graviex",
+	"pair": "MW/DOGE",
+	"pairPrice": 0.02095945
+}, {
+	"price": 0.0025,
+	"link": "https://tidex.com/",
+	"exchange": "Tidex",
+	"pair": "DOGE/USDT",
+	"pairPrice": 0.0025,
+	"volume": 0
+}, {
+	"price": 0.00018549999999999998,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/BTC",
+	"pairPrice": 530,
+	"volume": 0
+}, {
+	"price": 0.000702884,
+	"link": "https://openledger.info",
+	"exchange": "CCEDK",
+	"pair": "DOGE/PPC",
+	"pairPrice": 1.04,
+	"volume": 0
+}, {
+	"price": 0.10287504,
+	"exchange": "Coinall",
+	"pair": "DOGE/BTC",
+	"pairPrice": 57152.8,
+	"volume": 0
+}],
     PricingData : [
         {
             title: 'Basic',
