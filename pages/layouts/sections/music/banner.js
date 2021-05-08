@@ -35,7 +35,7 @@ const Banner = ({ abcdar }) => {
             {!abcdar && <>
                 <div className="right-side">
                     <div className="circle">
-                        <img alt="" className="img-fluid" src="/dogecoin.png" />
+                        <img alt="" className="img-fluid" src="/favicon.ico" />
                     </div>
                     <h1>2021</h1>
                 </div>
