@@ -1,15 +1,26 @@
 import React, { useEffect } from 'react'
 import Head from 'next/head'
-
+import useSWR from 'swr';
 import BannerSection from './layouts/sections/music/banner'
-import SideSection from './layouts/sections/music/sideSection'
 import AlbumSection from './layouts/sections/music/album';
 import CopyrightSection from './layouts/sections/music/copyright';
-import Market from './elements/price/elementPrice1';
+import dynamic from "next/dynamic";
+//import Market from './elements/price/elementPrice1';
+const Market= dynamic(() => import('./elements/price/elementPrice1'), {
+    loading: () => "Loading ...",
+    ssr: false,
+});
+const fetcher = async () => {
+    const res = await fetch("/api/market");
+     const data = await res.json();
+    console.log("=====",{data})
+    return data;
+};
 
 const Doge = () => {
-
-    useEffect(() => {
+    const { data=[] } = useSWR('apiMarket', fetcher,{ refreshInterval: 30000 });
+  console.log({data})
+     useEffect(() => {
         document.body.style.setProperty('--primary', '#223b7b')
         document.body.style.setProperty('--secondary', '#fff')
         document.body.style.setProperty('--light', '#2245a0')
@@ -22,8 +33,7 @@ const Doge = () => {
                 <title>My Doge </title>
             </Head>
             <BannerSection />
-            <SideSection />
-            <Market />
+            <Market data={data} />
             <AlbumSection />
             <CopyrightSection />
         </div>

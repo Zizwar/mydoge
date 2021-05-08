@@ -18,26 +18,29 @@ const Album = () => (
                         </div>
                     </div>
                 </Col>
-   
+
                 {market?.length > 0 ?
-                    market.map(({ link,price="",
-                        exchange="",
-                        pair="",
-                        pairPrice="",
-                        volume=0 }, index) =>
-                        <Col lg="3" md="4" sm="6" key={index}>
-                            <div style={{border: "2px dotted #369"}} className="album-list overlay-box text-center">
-                                <h5 className="text-uppercase list-head">
-                                    <a className=" btn btn-default btn-gradient text-white btn-app1-theme"
-                                      target="_parent"  href={link ? link?.includes("binance.com") ? "https://www.binance.com/?ref=120434795" : link : `https://www.google.com/search?q=market+${exchange}`}>{exchange} {link?.includes("binance.com") && "🚀"}</a></h5>
-                                <div>
-                                    <h6 className="item-sublist">${price?.toFixed(5)}</h6>
-                                    <h6 className="item-sublist">{pair} = {pairPrice.toFixed(5)}</h6>
-                                    <h6 className="item-sublist">Volume: {parseInt(volume) || volume && volume?.toFixed(5)}</h6>
-                               
+                    market.map((item, index) => {
+                        const { link, price = "",
+                            exchange = "",
+                            pair = "",
+                            pairPrice = "",
+                            volume = 0 } = item;
+                        if (exchange)
+                            return <Col lg="3" md="4" sm="6" key={index}>
+                                <div style={{ border: "2px dotted #369" }} className="album-list overlay-box text-center">
+                                    <h5 className="text-uppercase list-head">
+                                        <a className=" btn btn-default btn-gradient text-white btn-app1-theme"
+                                            target="_parent" href={link ? link?.includes("binance.com") ? "https://www.binance.com/?ref=120434795" : link : `https://www.google.com/search?q=market+${exchange}`}>{exchange} {link?.includes("binance.com") && "🚀"}</a></h5>
+                                    <div>
+                                        <h6 className="item-sublist">${price?.toFixed(5)}</h6>
+                                        <h6 className="item-sublist">{pair} = {pairPrice.toFixed(5)}</h6>
+                                        <h6 className="item-sublist">Volume: {parseInt(volume) || volume && volume?.toFixed(5)}</h6>
+
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
+                            </Col>
+                    }
                     ) : 'Album Data Not Found'
                 }
             </Row>
