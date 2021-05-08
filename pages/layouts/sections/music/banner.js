@@ -34,8 +34,10 @@ const Banner = ({ abcdar }) => {
             </div>
             {!abcdar && <>
                 <div className="right-side">
-                    <div className="circle">
-                        <img alt="" className="img-fluid" src="/favicon.ico" />
+                    <div className="circle" style={{background: "aliceblue",
+    height: "70px",
+    width: "70px"}}>
+                        <img style={{  left:0}} alt="" className="img-fluid" src="/assets/images/404/rocket.svg" />
                     </div>
                     <h1>2021</h1>
                 </div>
