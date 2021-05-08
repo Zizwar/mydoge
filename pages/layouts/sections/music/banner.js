@@ -25,7 +25,7 @@ const Banner = ({ abcdar }) => {
                                     <a href="https://www.abcdarab.com/">
                                         <img alt="" className="img-fluid" src="/abcdarab.png" />
                                     </a>
-                                    : <img alt="" className="img-fluid" src="/dogecoin.png" />
+                                    : <img alt="" className="img-fluid" src="/favicon.ico" />
                                 }
                             </div>
                         </div>
