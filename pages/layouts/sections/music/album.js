@@ -8,7 +8,7 @@ const Album = ({ data: market = [] }) => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title4">
                         <div className="main-title">
-                            <h2>All Market</h2>
+                            <h2>All Markets</h2>
                         </div>
                         <div className="sub-title">
                             <p></p>
