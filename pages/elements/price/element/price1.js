@@ -28,15 +28,14 @@ var settings = {
 };
 
 
-const PriceOne = ({ data: market }) => {
+const PriceOne = ({ data: market=[] }) => {
     //console.log("----", market23[0]?.exchange)
     return (
         <Fragment>
             <Row>
                 <Col xs="12">
                     <Slider className="owl-carousel owl-theme pricing-slider price-margin"  {...settings}>
-                        {market[0]?.exchange &&
-                            market.map((item, index) => {
+                        {market &&  market.map((item=[], index) => {
                                 const { link, price = "",
                                     exchange = "",
                                     pair = "",
