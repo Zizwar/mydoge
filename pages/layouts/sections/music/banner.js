@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import Tilt from 'react-parallax-tilt';
 import { Container, Row, Col } from 'reactstrap'
 import price from '../../../api/price';
-const Banner = ({ abcdar, data: { price = 0, color, currentTextPrice } }) => {
+const Banner = ({ abcdar, data=[] }) => {
+    const  { price = 0, color, currentTextPrice } = data;
     const [sideSection, setSideSection] = useState(false);
 
     const sidesection = () => {

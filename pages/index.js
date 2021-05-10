@@ -28,8 +28,8 @@ let currentTextPrice = "";
 let color = "#fff"
 const Doge = () => {
     const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 30000 });
-    const { data: { ok, price = 0 } } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 15000 });
-
+    const { data:_data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 15000 });
+    const { status, price = 0 } = _data;
     const [playDown] = useSound(SOUND_DOWN);
     const [playUp] = useSound(SOUND_UP);
     useEffect(() => {
@@ -51,7 +51,7 @@ const Doge = () => {
             playDown();
         }
         statusPrice = currentTextPrice = `📉${price}↘️`;;
-    
+
 
     }, [price]);
 
@@ -69,10 +69,10 @@ const Doge = () => {
             <Head>
                 <title>My Doge </title>
             </Head>
-            <BannerSection abcdar={false} data={{currentTextPrice,price,color}} />
+            <BannerSection abcdar={false} data={{ currentTextPrice, price, color }} />
             <Market data={data} />
             <AlbumSection data={data} />
-            <BannerSection abcdar={true} data={{price}} />
+            <BannerSection abcdar={true} data={{ price }} />
             <CopyrightSection />
 
         </div>
