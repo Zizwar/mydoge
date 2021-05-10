@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Head from 'next/head'
 import useSWR from 'swr';
 import BannerSection from './layouts/sections/music/banner'
@@ -25,13 +25,13 @@ const SOUND_DOWN = `https://freesound.org/data/previews/368/368006_5966858-lq.mp
 const SOUND_UP = `https://freesound.org/data/previews/418/418106_6078577-lq.mp3`
 let statusPrice = 0;
 let currentTextPrice = "";
+let color = "#fff"
 const Doge = () => {
     const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 30000 });
     const { data: { ok, price = 0 } } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 15000 });
 
     const [playDown] = useSound(SOUND_DOWN);
     const [playUp] = useSound(SOUND_UP);
-    const [backgroundColor, setBackgroundColor] = useState("#fff");
     useEffect(() => {
         console.log('price==', { price });
 
@@ -41,19 +41,17 @@ const Doge = () => {
         //if (orders?.length)
         if (price > statusPrice) {
 
-            setBackgroundColor("green");
+            color = ("green");
             playUp();
             currentTextPrice = `📈${price}↗️`;
 
         }
         else {
-            setBackgroundColor("red");
+            color = ("red");
             playDown();
         }
         statusPrice = currentTextPrice = `📉${price}↘️`;;
-        // setTimeout(() => {
-        //   timerSound = 0;
-        // }, 5000);
+    
 
     }, [price]);
 
@@ -71,10 +69,10 @@ const Doge = () => {
             <Head>
                 <title>My Doge </title>
             </Head>
-            <BannerSection abcdar={false} price={price} backgroundColor={backgroundColor} />
+            <BannerSection abcdar={false} data={{currentTextPrice,price,color}} />
             <Market data={data} />
             <AlbumSection data={data} />
-            <BannerSection abcdar={true} price={price} />
+            <BannerSection abcdar={true} data={{price}} />
             <CopyrightSection />
 
         </div>
