@@ -6,8 +6,8 @@ export default async (_req, res) => {
 
     try {
         const { data = [] } = await axios.get(url);
-        console.log("Axios url", url);
-        console.log("Axios data", data);
+  //      console.log("Axios url", url);
+    //    console.log("Axios data", data);
         res.json(data || []);
     } catch (error) {
         console.log({ error });

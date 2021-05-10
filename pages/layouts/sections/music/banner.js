@@ -34,10 +34,12 @@ const Banner = ({ abcdar }) => {
             </div>
             {!abcdar && <>
                 <div className="right-side">
-                    <div className="circle" style={{background: "aliceblue",
-    height: "70px",
-    width: "70px"}}>
-                        <img style={{  left:0}} alt="" className="img-fluid" src="/assets/images/404/rocket.svg" />
+                    <div className="circle" style={{
+                        background: "aliceblue",
+                        height: "70px",
+                        width: "70px"
+                    }}>
+                        <img style={{ left: 0 }} alt="" className="img-fluid" src="/assets/images/404/rocket.svg" />
                     </div>
                     <h1>2021</h1>
                 </div>
@@ -45,9 +47,11 @@ const Banner = ({ abcdar }) => {
                 <div className="left-side">
 
                 </div>
+                {/*
                     <Row>
                         <iframe width="99%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/981250600&color=%23322e1e&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                    </Row></>
+                    </Row>
+                */}</>
             }
         </section>
     )
