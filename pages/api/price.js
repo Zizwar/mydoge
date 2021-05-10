@@ -11,8 +11,7 @@ export default async (_req, res) => {
     try {
         const currencies = await nomics.currenciesTicker({ids}) || [];
  const price = currencies[0]?.price || 0;
-       console.log("====", currencies);
-
+       console.log("====Price", price);
        const  data = {price,status:"ok"}
         res.json( data);
     } catch (error) {

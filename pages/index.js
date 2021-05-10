@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import useSWR from 'swr';
 import BannerSection from './layouts/sections/music/banner'
@@ -20,23 +20,41 @@ const fetcher = async (...args) => {
 };
 const urlMarket = "/api/market";
 const urlPriceDoge = "/api/price";
-
+//
+const SOUND_DOWN = `https://freesound.org/data/previews/368/368006_5966858-lq.mp3`;
+const SOUND_UP = `https://freesound.org/data/previews/418/418106_6078577-lq.mp3`
+let statusPrice = 0;
+let currentTextPrice = "";
 const Doge = () => {
-    const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 15000 });
-    const { data: price = 0 } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 5000 });
-    const [play] = useSound(
-        `https://freesound.org/data/previews/31/31780_266482-lq.mp3`
-    );
+    const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 30000 });
+    const { data: { ok, price = 0 } } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 15000 });
+
+    const [playDown] = useSound(SOUND_DOWN);
+    const [playUp] = useSound(SOUND_UP);
+    const [backgroundColor, setBackgroundColor] = useState("#fff");
     useEffect(() => {
         console.log('price==', { price });
 
+        document.title = "MyDogeCoin:" + price
         //if (timerSound) return;
         //timerSound++;
         //if (orders?.length)
-        play();
+        if (price > statusPrice) {
+
+            setBackgroundColor("green");
+            playUp();
+            currentTextPrice = `📈${price}↗️`;
+
+        }
+        else {
+            setBackgroundColor("red");
+            playDown();
+        }
+        statusPrice = currentTextPrice = `📉${price}↘️`;;
         // setTimeout(() => {
         //   timerSound = 0;
         // }, 5000);
+
     }, [price]);
 
     //  console.log({data})
@@ -53,10 +71,10 @@ const Doge = () => {
             <Head>
                 <title>My Doge </title>
             </Head>
-            <BannerSection abcdar={false} />
+            <BannerSection abcdar={false} price={price} backgroundColor={backgroundColor} />
             <Market data={data} />
             <AlbumSection data={data} />
-            <BannerSection abcdar={true} />
+            <BannerSection abcdar={true} price={price} />
             <CopyrightSection />
 
         </div>
