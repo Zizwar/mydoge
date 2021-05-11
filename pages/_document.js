@@ -27,8 +27,6 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800" rel="stylesheet" />
           <BaseCSS />
-<script async src="https://cse.google.com/cse.js?cx=31c28c51c5d2c84c1"></script>
-
 
 
         </Head>

@@ -7,7 +7,7 @@ import CopyrightSection from './layouts/sections/music/copyright';
 import dynamic from "next/dynamic";
 import TagManager from 'react-gtm-module';
 //import Market from './elements/price/elementPrice1';
-import {AdsAuto, AdsArticle} from "./wino/ads"
+//import {AdsAuto, AdsArticle} from "./wino/ads"
 import useSound from 'use-sound';
 const Market = dynamic(() => import('./elements/price/elementPrice1'), {
     loading: () => "Loading ...",
@@ -59,6 +59,7 @@ const Doge = () => {
 
     //  console.log({data})
     useEffect(() => {
+        
         document.body.style.setProperty('--primary', '#223b7b');
         document.body.style.setProperty('--secondary', '#fff');
         document.body.style.setProperty('--light', '#2245a0');
@@ -77,9 +78,8 @@ const Doge = () => {
             <BannerSection abcdar={false} data={{ currentTextPrice, price, color }} />
       
 <div class="gcse-search"></div>
-      <AdsArticle /> 
             <Market data={data} />
-             <AdsArticle /> 
+     
           
            
             <AlbumSection data={data} />
