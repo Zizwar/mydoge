@@ -7,6 +7,7 @@ import CopyrightSection from './layouts/sections/music/copyright';
 import dynamic from "next/dynamic";
 import TagManager from 'react-gtm-module';
 //import Market from './elements/price/elementPrice1';
+import {AdsAuto, AdsArticle} from "./wino/ads"
 import useSound from 'use-sound';
 const Market = dynamic(() => import('./elements/price/elementPrice1'), {
     loading: () => "Loading ...",
@@ -48,9 +49,10 @@ const Doge = () => {
         }
         else {
             color = ("red");
-            playDown();
+            playDown(); 
+            currentTextPrice = `📉${price}↘️`;
         }
-        statusPrice = currentTextPrice = `📉${price}↘️`;;
+        statusPrice = price
 
 
     }, [price]);
@@ -60,17 +62,26 @@ const Doge = () => {
         document.body.style.setProperty('--primary', '#223b7b');
         document.body.style.setProperty('--secondary', '#fff');
         document.body.style.setProperty('--light', '#2245a0');
+          TagManager.initialize({ gtmId: 'G-NHFZCGGD08' });
         document.body.style.setProperty('--dark', '#000');
-        TagManager.initialize({ gtmId: 'G-NHFZCGGD08' });
-    }, []);
+        if(typeof window !== 'undefined') 
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+    });
 
     return (
         <div>
             <Head>
                 <title>My Doge </title>
             </Head>
+           
             <BannerSection abcdar={false} data={{ currentTextPrice, price, color }} />
+      
+<div class="gcse-search"></div>
+      <AdsArticle /> 
             <Market data={data} />
+             <AdsArticle /> 
+          
+           
             <AlbumSection data={data} />
             <BannerSection abcdar={true} data={{ price }} />
             <CopyrightSection />

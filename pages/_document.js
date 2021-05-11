@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Head, Main,Html,NextScript } from 'next/document'
 
 const BaseCSS = ({ css }) =>
   <style
@@ -14,8 +14,9 @@ BaseCSS.defaultProps = {
 export default class MyDocument extends Document {
   render() {
     return (
-      <html>
+      <Html>
         <Head>
+      
           <link rel="icon" href="/favicon.ico" />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='generator' content='mdx-docs' />
@@ -26,12 +27,17 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800" rel="stylesheet" />
           <BaseCSS />
+<script async src="https://cse.google.com/cse.js?cx=31c28c51c5d2c84c1"></script>
+
+
+
         </Head>
         <body className="try">
           <Main />
           <NextScript />
         </body>
-      </html>
+      
+      </Html>
     )
   }
 }   
