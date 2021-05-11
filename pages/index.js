@@ -63,7 +63,7 @@ const Doge = () => {
         document.body.style.setProperty('--primary', '#223b7b');
         document.body.style.setProperty('--secondary', '#fff');
         document.body.style.setProperty('--light', '#2245a0');
-          TagManager.initialize({ gtmId: 'G-NHFZCGGD08' });
+          TagManager.initialize({ gtmId: 'G-XF8WRSYF8C' });
         document.body.style.setProperty('--dark', '#000');
         if(typeof window !== 'undefined') 
             (window.adsbygoogle = window.adsbygoogle || []).push({});
