@@ -22,14 +22,14 @@ const fetcher = async (...args) => {
 const urlMarket = "/api/market";
 const urlPriceDoge = "/api/price";
 //
-const SOUND_DOWN = `https://freesound.org/data/previews/368/368006_5966858-lq.mp3`;
-const SOUND_UP = `https://freesound.org/data/previews/418/418106_6078577-lq.mp3`
+const SOUND_DOWN = `https://freesound.org/data/previews/257/257824_3509524-lq.mp3`;
+const SOUND_UP = `https://freesound.org/data/previews/273/273688_3450800-lq.mp3`
 let statusPrice = 0;
 let currentTextPrice = "";
 let color = "#fff"
 const Doge = () => {
-    const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 30000 });
-    const { data:_data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 15000 });
+    const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 65000 });
+    const { data:_data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 7000 });
     const { status, price = 0 } = _data;
     const [playDown] = useSound(SOUND_DOWN);
     const [playUp] = useSound(SOUND_UP);
@@ -74,15 +74,10 @@ const Doge = () => {
             <Head>
                 <title>My Doge </title>
             </Head>
-           
             <BannerSection abcdar={false} data={{ currentTextPrice, price, color }} />
-      
 <div class="gcse-search"></div>
             <Market data={data} />
-     
-          
-           
-            <AlbumSection data={data} />
+             <AlbumSection data={data} />
             <BannerSection abcdar={true} data={{ price }} />
             <CopyrightSection />
 
