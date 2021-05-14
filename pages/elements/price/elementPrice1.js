@@ -6,7 +6,7 @@ const ElementPriceOne = ({data=[]}) => (
     <Fragment>
         <section className="app1 pricing mb-0">
             <Container>
-                <Title heading="Market" />
+                <Title heading="www.mydoge.us" />
                 <PriceOne data={data} />
             </Container>
         </section>
