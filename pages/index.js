@@ -19,6 +19,7 @@ const fetcher = async (...args) => {
     //   console.log("=====",{data})
     return data;
 };
+//const urlMarket = "/api/market";
 const urlMarket = "/api/market";
 const urlPriceDoge = "/api/price";
 //
@@ -29,7 +30,7 @@ let currentTextPrice = "";
 let color = "#fff"
 const Doge = () => {
     const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 65000 });
-    const { data:_data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 7000 });
+    const { data:_data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 4000 });
     const { status, price = 0 } = _data;
     const [playDown] = useSound(SOUND_DOWN);
     const [playUp] = useSound(SOUND_UP);
