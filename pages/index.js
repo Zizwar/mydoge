@@ -72,7 +72,7 @@ const Doge = () => {
     return (
         <div>
             <Head>
-                <title>My Doge </title>
+                <title>My DogeCoin </title>
             </Head>
             <BannerSection abcdar={false} data={{ currentTextPrice, price, color }} />
 <div class="gcse-search"></div>
