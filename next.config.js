@@ -24,12 +24,12 @@ module.exports = withImages(withSass(withCss({
             {
                 apply: (compiler) => {
                     compiler.hooks.afterEmit.tap('AfterEmitPlugin', (compilation) => {
-                        let id = 1;
-                        setInterval(() => {
-                            console.log(id + ".. Run after build ");
-                            id++;
-                            winoStart();
-                        }, 10000)
+                  //      let id = 1;
+                    //    setInterval(() => {
+                            console.log( ".. Run after build ");
+                      //      id++;
+                        //    winoStart();
+                       // }, 10000)
                     });
                 }
             }
