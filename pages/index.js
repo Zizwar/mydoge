@@ -5,7 +5,7 @@ import BannerSection from './layouts/sections/music/banner'
 import AlbumSection from './layouts/sections/music/album';
 import CopyrightSection from './layouts/sections/music/copyright';
 import dynamic from "next/dynamic";
-import TagManager from 'react-gtm-module';
+
 //import Market from './elements/price/elementPrice1';
 //import {AdsAuto, AdsArticle} from "./wino/ads"
 import useSound from 'use-sound';
@@ -64,7 +64,6 @@ const Doge = () => {
         document.body.style.setProperty('--primary', '#223b7b');
         document.body.style.setProperty('--secondary', '#fff');
         document.body.style.setProperty('--light', '#2245a0');
-          TagManager.initialize({ gtmId: 'G-XF8WRSYF8C' });
         document.body.style.setProperty('--dark', '#000');
         if(typeof window !== 'undefined') 
             (window.adsbygoogle = window.adsbygoogle || []).push({});
