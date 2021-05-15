@@ -10,12 +10,10 @@ const Copyright = () => (
                             <li>
                                 <a className="copyright-text op-text" href="#">home</a>
                             </li>
-                            <li>
-                                <a className="copyright-text op-text" href="#">timeline</a>
-                            </li>
+                       
                        
                             <li>
-                                <a className="copyright-text op-text" href="#">sponsors </a>
+                                <a className="copyright-text op-text" href="https://www.dynadot.com/market/listing/mydoge.us">sell my website  </a>
                             </li>
                             <li>
                                 <a className="copyright-text op-text" href="mailto:2600.ma@gmail.com">contact</a>
