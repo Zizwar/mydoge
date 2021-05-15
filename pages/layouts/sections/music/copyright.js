@@ -13,7 +13,7 @@ const Copyright = () => (
                        
                        
                             <li>
-                                <a className="copyright-text op-text" href="https://www.dynadot.com/market/listing/mydoge.us">sell my website  </a>
+                                <a className="copyright-text op-text" href="https://www.dynadot.com/market/listing/mydoge.us">Buy this website  </a>
                             </li>
                             <li>
                                 <a className="copyright-text op-text" href="mailto:2600.ma@gmail.com">contact</a>
