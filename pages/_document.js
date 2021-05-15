@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-      
+        <title>My Doge</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='generator' content='mdx-docs' />
