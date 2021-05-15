@@ -37,7 +37,7 @@ const Doge = () => {
     const [playUp] = useSound(SOUND_UP);
     useEffect(() => {
         //console.log('price==', { price });
-title = price.toFixed(3)+" MyDoge"
+title = price +" MyDoge"
         //if (timerSound) return;
         //timerSound++;
         //if (orders?.length)
