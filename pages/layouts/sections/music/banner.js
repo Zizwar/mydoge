@@ -24,12 +24,8 @@ const Banner = ({ abcdar, data=[] }) => {
                     <Tilt perspective="20000" transitionSpeed="3000">
                         <div className="text-center w-100">
                             <div className="img-height">
-                                {abcdar ?
-                                    <a href="https://www.abcdarab.com/">
-                                        <img alt="" className="img-fluid" src="/abcdarab.png" />
-                                    </a>
-                                    : <img alt="" className="img-fluid" src="/favicon.ico" />
-                                }
+                                 <img alt="" className="img-fluid" src="/favicon.ico" />
+                               
                             </div>
                         </div>
                     </Tilt>
