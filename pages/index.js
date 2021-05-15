@@ -36,9 +36,8 @@ const Doge = () => {
     const [playDown] = useSound(SOUND_DOWN);
     const [playUp] = useSound(SOUND_UP);
     useEffect(() => {
-        console.log('price==', { price });
-
-        document.title = "MyDogeCoin:" + price
+        //console.log('price==', { price });
+title = price.toFixed(3)+" MyDoge"
         //if (timerSound) return;
         //timerSound++;
         //if (orders?.length)
@@ -47,14 +46,13 @@ const Doge = () => {
             color = ("green");
             playUp();
             currentTextPrice = `📈${price}↗️`;
-            document.title = price.toFixed(3)+" MyDoge"
+            
 
         }
         else {
             color = ("red");
             playDown(); 
             currentTextPrice = `📉${price}↘️`;
-            document.title = price.toFixed(3)+" MyDoge"
         }
         statusPrice = price
 
@@ -75,7 +73,7 @@ const Doge = () => {
     return (
         <div>
             <Head>
-                <title>{title} </title>
+              
         <meta name="description" content="  Dogecoin is a cryptocurrency that started as a joke in 2013. It is a satirical homage to bitcoin, designed to serve no real purpose other than generating a few laughs
       " />
             </Head>
