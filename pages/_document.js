@@ -37,7 +37,10 @@ export default class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XF8WRSYF8C');
+            gtag('config', 'G-XF8WRSYF8C',{
+              page_path: window.location.pathname
+            });
+
           `
             }}
           />
