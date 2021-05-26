@@ -81,7 +81,7 @@ title = price +" MyDoge"
 <div class="gcse-search"></div>
             <Market data={data} />
              <AlbumSection data={data} />
-            <BannerSection abcdar={true} data={{ price }} />
+            <BannerSection abcdar={false} data={{ price }} />
             <CopyrightSection />
 
         </div>
