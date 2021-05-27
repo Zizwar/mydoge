@@ -28,16 +28,16 @@ const SOUND_UP = `https://freesound.org/data/previews/273/273688_3450800-lq.mp3`
 let statusPrice = 0;
 let currentTextPrice = "";
 let color = "#fff";
-let title ="My DogeCoin" ;
-const Doge = () => {
-    const { data = [] } = useSWR(urlMarket, fetcher, { refreshInterval: 65000 });
-    const { data:_data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 4000 });
+let title = "My DogeCoin";
+const Doge = ({ dataMarket = [] }) => {
+    const { data = dataMarket } = useSWR(urlMarket, fetcher, { refreshInterval: 65000 });
+    const { data: _data = [] } = useSWR(urlPriceDoge, fetcher, { refreshInterval: 4000 });
     const { status, price = 0 } = _data;
     const [playDown] = useSound(SOUND_DOWN);
     const [playUp] = useSound(SOUND_UP);
     useEffect(() => {
         //console.log('price==', { price });
-title = price +" MyDoge"
+        title = price + " MyDoge"
         //if (timerSound) return;
         //timerSound++;
         //if (orders?.length)
@@ -46,12 +46,12 @@ title = price +" MyDoge"
             color = ("green");
             playUp();
             currentTextPrice = `📈${price}↗️`;
-            
+
 
         }
         else {
             color = ("red");
-            playDown(); 
+            playDown();
             currentTextPrice = `📉${price}↘️`;
         }
         statusPrice = price
@@ -61,31 +61,38 @@ title = price +" MyDoge"
 
     //  console.log({data})
     useEffect(() => {
-        
+
         document.body.style.setProperty('--primary', '#223b7b');
         document.body.style.setProperty('--secondary', '#fff');
         document.body.style.setProperty('--light', '#2245a0');
         document.body.style.setProperty('--dark', '#000');
-        if(typeof window !== 'undefined') 
+        if (typeof window !== 'undefined')
             (window.adsbygoogle = window.adsbygoogle || []).push({});
     });
 
     return (
         <div>
             <Head>
-              
-        <meta name="description" content="  Dogecoin is a cryptocurrency that started as a joke in 2013. It is a satirical homage to bitcoin, designed to serve no real purpose other than generating a few laughs
+
+                <meta name="description" content="  Dogecoin is a cryptocurrency that started as a joke in 2013. It is a satirical homage to bitcoin, designed to serve no real purpose other than generating a few laughs
       " />
             </Head>
             <BannerSection abcdar={false} data={{ currentTextPrice, price, color }} />
-<div class="gcse-search"></div>
+            <div class="gcse-search"></div>
             <Market data={data} />
-             <AlbumSection data={data} />
+            <AlbumSection data={data} />
             <BannerSection abcdar={false} data={{ price }} />
             <CopyrightSection />
 
         </div>
     )
 }
+export async function getStaticProps() {
+    const res = await fetch("https://mydoge.us/api/market")
+    const dataMarket = await res.json()
 
+    return {
+        props: { dataMarket }, // will be passed to the page component as props
+    }
+}
 export default Doge;
