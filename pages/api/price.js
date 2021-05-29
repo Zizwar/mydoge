@@ -7,10 +7,12 @@ const nomics = new Nomics({
     apiKey,
 
 });
+let counter = 1;
+setInterval(_=>counter++,1000) 
 //
 let oldTime = 0;
 let _price = 0;
-export default async (_req, res) => {
+export default async (_req, res) {
     const newTime = new Date().getTime();
     const btwTime = newTime - oldTime;
     if (btwTime > 7000)
@@ -19,7 +21,7 @@ export default async (_req, res) => {
             const price = currencies[0]?.price;
             console.log("WEB Price", price);
 
-            const data = { price, status: "ok" }
+            const data = { price, counter:{h:counter/60/60,m:counter/60,s:counter},status: "ok" }
             res.json(data);
             _price = price;
             oldTime = new Date().getTime();
