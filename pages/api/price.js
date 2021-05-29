@@ -12,7 +12,7 @@ setInterval(_=>counter++,1000)
 //
 let oldTime = 0;
 let _price = 0;
-export default async (_req, res) {
+export default async (_req, res)=> {
     const newTime = new Date().getTime();
     const btwTime = newTime - oldTime;
     if (btwTime > 7000)
