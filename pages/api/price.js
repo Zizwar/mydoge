@@ -29,7 +29,6 @@ export default async (_req, res)=> {
             console.log({ error });
             res.json([]);
         } else {
-        console.log("Local Price", _price);
-        res.json({price:_price})
+      res.json({price:_price,counter:{h:counter/60/60,m:counter/60,s:counter},status: "ok" })
     }
 }
